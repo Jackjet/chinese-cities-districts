@@ -4,7 +4,7 @@ CREATE TABLE chinese_districts(
 	city_id int NULL,
 	created_at datetime NULL,
 	updated_at datetime NULL
-)ENGINE = MYISAM DEFAULT CHARSET=utf8 ;
+)ENGINE = InnoDB DEFAULT CHARSET=utf8 ;
 
 INSERT chinese_districts (id, district_name, city_id) VALUES (1, '东城区', 1);
 INSERT chinese_districts (id, district_name, city_id) VALUES (2, '西城区', 1);

@@ -3,7 +3,7 @@ CREATE TABLE chinese_provinces(
 	province_name VARCHAR( 50 ) NULL,
 	created_at datetime NULL,
 	updated_at datetime NULL
-)ENGINE = MYISAM DEFAULT CHARSET=utf8 ;
+)ENGINE = InnoDB DEFAULT CHARSET=utf8 ;
 
 INSERT chinese_provinces (id, province_name) VALUES (1, '北京市');
 INSERT chinese_provinces (id, province_name) VALUES (2, '天津市');
